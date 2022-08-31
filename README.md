@@ -16,11 +16,11 @@
 ## Features
 
 Main features provided by mGraph:
-- DB Physical Model for db schema visualisation as diagram
-- Meta Model for logical metamodel visualisation as diagram
-- Instance Model for model visualisation as diagram
-- Instance Model Graph for system intance type level data flow graph
-- Instance Data Graph for intance object level data flow graph
+- DB Physical Model for db schema visualisation
+- Meta Model for logical metamodel visualisation
+- Instance Model for model visualisation
+- Instance Model Graph for instance type level data flows
+- Instance Data Graph for intance object level data flows
 
 ## Usage
 Press cmd+shft+p (mac) or cntr+shft+p (win) and type 'MG' to see and select the visualisation provided by extension: 
