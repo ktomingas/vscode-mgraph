@@ -24,8 +24,8 @@ Main features provided by mGraph:
 
 ## Usage
 Press cmd+shft+p (mac) or cntr+shft+p (win) and type 'MG' to see and select the visualisation provided by extension: 
-\!\[Graph\]\(media/usage1.png\)
-<!-- <img src="https://raw.githubusercontent.com/ktomingas/vscode-mgraph/main/media/usage1.png" /> -->
+<!-- \!\[Graph\]\(media/usage1.png\) -->
+<img src="https://raw.githubusercontent.com/ktomingas/vscode-mgraph/main/media/usage1.png" />
 
 ## Requirements
 
