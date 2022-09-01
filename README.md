@@ -42,9 +42,10 @@ This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.co
 * `query.ExcludeNamePattern`: Default object name pattern to exlude in Physical Model
 * `query.ExcludeTypes`: Default object type list to exclude in System and Instance Graph
 * `query.IncludePattern`: Default object name pattern to include in Physical Model
+* `query.ShowModelRelations`: Query option to show model or instance model relation (true) in logical and instance Models
+* `query.ShowGraphRelations`: Query option to show model or instance graph relation (true) in instance Models
 * `query.ShowAllObjectTypes`: Query option to show all types (true) or graph connected types (false) in Graph
 * `query.ShowMaxDistance`: Query option for horisontal navigation depth or distance in Instance Graph
-* `query.ShowModelRelations`: Query option to show model or instance model relation (true) in logical and instance Models
 * `query.ShowParentCildRelations`: Query option to show parent-child hierarchy relations (true) or not (false) in Graph
 
 ## Changelog
