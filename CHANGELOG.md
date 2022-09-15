@@ -3,8 +3,9 @@
 ## [0.6.0]
 
 - MetaModel relations updated
-- DataMinData, DataMaxData config parametrs added
+- DataMinDate, DataMaxDate config parameters added
 - Dynamic config load added
+
 ## [0.5.0]
 
 - Initial release
