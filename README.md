@@ -31,6 +31,8 @@ Press cmd+shft+p (mac) or cntr+shft+p (win) and type 'MG' to see and select the 
 
 This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) extension that has to be installed and configured with working Postgres DB connection.
 
+This VS Code extension uses external [Quickchart.io](https://quickchart.io) service for graph rendering so please read and accept the Quickchart terms and conditions before using the mGraph extension!
+
 ## Extension Settings
 
 **mGRAPH** extension has following settings (reload required):
@@ -39,6 +41,8 @@ This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.co
 * `general.SchemaName`: Default Postgres DB schema name for Physical Model
 * `general.SysName`: Default System Origin Name for Instance Model Graph
 * `general.SysNamePattern`: Default System Origin pattern for Instance Model
+* `query.DataMinDate`: Min change datetime of the data used in Instance Model
+* `query.DataMaxDate`: Max change datetime of the data used in Instance Model
 * `query.ExcludeNamePattern`: Default object name pattern to exlude in Physical Model
 * `query.ExcludeTypes`: Default object type list to exclude in System and Instance Graph
 * `query.IncludePattern`: Default object name pattern to include in Physical Model
