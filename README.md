@@ -21,6 +21,7 @@ Main features provided by mGraph:
 - Instance Model for model visualisation
 - Instance Model Graph for instance type level data flows
 - Instance Data Graph for intance object level data flows
+- Mappings Graph for mapping or transformation source/target flows
 
 ## Usage
 Press cmd+shft+p (mac) or cntr+shft+p (win) and type 'MG' to see and select the visualisation provided by extension: 
@@ -31,8 +32,6 @@ Press cmd+shft+p (mac) or cntr+shft+p (win) and type 'MG' to see and select the 
 
 This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools) extension that has to be installed and configured with working Postgres DB connection.
 
-This VS Code extension uses external [Quickchart.io](https://quickchart.io) service for graph rendering so please read and accept the Quickchart terms and conditions before using the mGraph extension!
-
 ## Extension Settings
 
 **mGRAPH** extension has following settings (reload required):
@@ -41,6 +40,7 @@ This VS Code extension uses external [Quickchart.io](https://quickchart.io) serv
 * `general.SchemaName`: Default Postgres DB schema name for Physical Model
 * `general.SysName`: Default System Origin Name for Instance Model Graph
 * `general.SysNamePattern`: Default System Origin pattern for Instance Model
+* `general.MappingTypes`: Default type codes for Mappings Graph
 * `query.DataMinDate`: Min change datetime of the data used in Instance Model
 * `query.DataMaxDate`: Max change datetime of the data used in Instance Model
 * `query.ExcludeNamePattern`: Default object name pattern to exlude in Physical Model
@@ -51,6 +51,8 @@ This VS Code extension uses external [Quickchart.io](https://quickchart.io) serv
 * `query.ShowAllObjectTypes`: Query option to show all types (true) or graph connected types (false) in Graph
 * `query.ShowMaxDistance`: Query option for horisontal navigation depth or distance in Instance Graph
 * `query.ShowParentCildRelations`: Query option to show parent-child hierarchy relations (true) or not (false) in Graph
+* `query.ShowExternalContextName`: Query option to show separate external context types (true) or not (false) in Instance Model Graph
+* `query.ShowMaxLimit`: Query option for maximum relations in Mapping Graph
 
 ## Changelog
 

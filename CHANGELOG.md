@@ -1,5 +1,16 @@
 # Change Log
 
+
+## [0.8.0]
+
+- Swithced to internal graphviz library
+- ShowExternalContextName config parameters added
+
+## [0.7.0]
+
+- New Mappings Graph added
+- MappingTypes, ShowMaxLimit config parameters added
+
 ## [0.6.0]
 
 - MetaModel relations updated
