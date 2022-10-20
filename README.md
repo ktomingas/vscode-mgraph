@@ -56,7 +56,7 @@ This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.co
 
 ## Changelog
 
-See changelog [here](https://raw.githubusercontent.com/ktomingas/vscode-mgraph/blob/main/CHANGELOG.md)
+See changelog [here](https://raw.githubusercontent.com/ktomingas/vscode-mgraph/main/CHANGELOG.md)
 
 ## Feedback
 
