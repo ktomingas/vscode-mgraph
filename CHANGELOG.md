@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.8.1]
+
+- Minor updates and fixes
 
 ## [0.8.0]
 
