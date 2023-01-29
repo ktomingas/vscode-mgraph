@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.9.0]
+
+- Program Graph added
+- Term Model added
+
 ## [0.8.1]
 
 - Minor updates and fixes

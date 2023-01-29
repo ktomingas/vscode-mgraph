@@ -18,10 +18,12 @@
 Main features provided by mGraph:
 - DB Physical Model for db schema visualisation
 - Meta Model for logical metamodel visualisation
+- Business Term Model for business glossary visualisation
 - Instance Model for model visualisation
 - Instance Model Graph for instance type level data flows
 - Instance Data Graph for intance object level data flows
 - Mappings Graph for mapping or transformation source/target flows
+- Program Graph for program internal source/target flows
 
 ## Usage
 Press cmd+shft+p (mac) or cntr+shft+p (win) and type 'MG' to see and select the visualisation provided by extension: 
@@ -41,6 +43,8 @@ This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.co
 * `general.SysName`: Default System Origin Name for Instance Model Graph
 * `general.SysNamePattern`: Default System Origin pattern for Instance Model
 * `general.MappingTypes`: Default type codes for Mappings Graph
+* `general.GlossaryName` : Default Glossary Name for Glossary Term Model
+* `general.ProgramObjectId` : Default object ID for Program Graph
 * `query.DataMinDate`: Min change datetime of the data used in Instance Model
 * `query.DataMaxDate`: Max change datetime of the data used in Instance Model
 * `query.ExcludeNamePattern`: Default object name pattern to exlude in Physical Model
@@ -52,7 +56,9 @@ This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.co
 * `query.ShowMaxDistance`: Query option for horisontal navigation depth or distance in Instance Graph
 * `query.ShowParentCildRelations`: Query option to show parent-child hierarchy relations (true) or not (false) in Graph
 * `query.ShowExternalContextName`: Query option to show separate external context types (true) or not (false) in Instance Model Graph
-* `query.ShowMaxLimit`: Query option for maximum relations in Mapping Graph
+* `query.ShowMaxLimit`: Query option for maximum relations in Mapping or Program Graph
+* `query.showMaxTreeLevel`: Query option for maximum hierarchical tree levels in Program Graph
+* `query.ShowMaxChild` : Query option for maximum children object in one hierarchical level in Program Graph
 
 ## Changelog
 
