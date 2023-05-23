@@ -18,7 +18,7 @@
 Main features provided by mGraph:
 - DB Physical Model for db schema visualisation
 - Meta Model for logical metamodel visualisation
-- Business Term Model for business glossary visualisation
+- Term Model for business glossary visualisation
 - Instance Model for model visualisation
 - Instance Model Graph for instance type level data flows
 - Instance Data Graph for intance object level data flows
