@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.9.2]
+
+- Program Graph updates, external program objects added
+
 ## [0.9.1]
 
 - Program Graph updates and config parameter fixes
