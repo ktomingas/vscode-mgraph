@@ -55,7 +55,7 @@ This VS Code extension depends on [SQLTools](https://marketplace.visualstudio.co
 * `query.ShowAllObjectTypes`: Query option to show all types (true) or graph connected types (false) in Graph
 * `query.ShowMaxDistance`: Query option for horisontal navigation depth or distance in Instance Graph
 * `query.ShowParentCildRelations`: Query option to show parent-child hierarchy relations (true) or not (false) in Graph
-* `query.ShowExternalContextName`: Query option to show separate external context types (true) or not (false) in Instance Model Graph
+* `query.ShowExternalContext`: Query option to show separate external context types (true) or not (false) in Instance Model and Program Graph
 * `query.ShowMaxLimit`: Query option for maximum relations in Mapping or Program Graph
 * `query.showMaxTreeLevel`: Query option for maximum hierarchical tree levels in Program Graph
 * `query.ShowMaxChild` : Query option for maximum children object in one hierarchical level in Program Graph

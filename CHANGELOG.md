@@ -1,5 +1,9 @@
 # Change Log
 
+## [0.9.3]
+
+- DB extension Sqltools call update. Graph object counts added
+
 ## [0.9.2]
 
 - Program Graph updates, external program objects added
