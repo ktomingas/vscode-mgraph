@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.0.0]
+
+- New menu with search, highlight and export
+
 ## [0.9.3]
 
 - DB extension Sqltools call update. Graph object counts added
